@@ -297,24 +297,18 @@ body{
   }
 
   .speech2{
-    width: 10em;
-    justify-self: center;
-    margin: 5px;
-    align-self: flex-start;
+    width: 20em;
     background: rgba(250, 235, 215);
     padding: 1em;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     font-weight: 700;
-    font-size: 1em;
-    border-radius: .8em;
     color: black;
+    position: relative;
     display: none;
-    transform: translate(5em, 0.5em);
-    position: absolute;
-    z-index: 10;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    border-radius: 10px;
   }
 
   .dictionary{
@@ -551,9 +545,8 @@ body{
   }
 
   .speech2{
-    width: 12em;
+    width: 15em;
     padding: 1em;
-    font-weight: 700;
     font-size: 1em;
   }
 
@@ -653,11 +646,9 @@ body{
   }
 
   .speech2{
-    width: 13em;
+    width: 20em;
     padding: 1em;
-    font-weight: 700;
     font-size: 1.1em;
-    transform: translate(6em, 1em);
   }
 
   .dictionary{
@@ -722,7 +713,7 @@ body{
   }
 
   .image{
-      width: 25em;
+      width: 28em;
   }
 
 
@@ -761,15 +752,13 @@ body{
       padding: 1em;
       font-weight: 700;
       font-size: 1.3em;
-      transform: translate(24em, 1em);
+      transform: translate(26em, 1em);
   }
 
   .speech2{
-    width: 20em;
+    width: 25em;
     padding: 1em;
-    font-weight: 700;
     font-size: 1.3em;
-    transform: translate(4em,1em);
   }
 
   .dictionary{

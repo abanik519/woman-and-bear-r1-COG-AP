@@ -190,7 +190,7 @@ export class App extends Component {
                             <i id="click2" class="fa fa-arrow-left">&larr;Click Here</i>
                           </div>
                           <p>Long ago in the far north, there lived a village of people known as a the Inuit. They lived on the shores of the icy Arctic. They depended upon the bounty of the salmon and seal and the creatures of the snow to feed themselves. All the young men were hunters and fishers.</p>
-                          <div id="s1" className="speech2 sb1">
+                          <div id="s1" className="speech2">
                             Notice that the Inuit live in igloos in winter. An igloo is a dome-shaped dwelling made from ice because there are no trees to make house from.
                           </div>
                         </div>
@@ -226,7 +226,7 @@ export class App extends Component {
                             </div>
                             <p>One cold winter day, the woman was walking by the sea when she spotted a tiny white polar bear sitting all alone on the thick ice. His mother was nowhere in sight. "Someone must have killed her," she said softly, and she walked onto the ice, picked up the cub and looked into his eyes. "You will be my son," she said. She called him Kunik.
                             </p>
-                            <div id="s3" className="speech2 sb1">
+                            <div id="s3" className="speech2">
                             The woman spotted the bear sitting on the ice. This means she saw him sitting there.
                             </div>
                         </div>
@@ -243,7 +243,7 @@ export class App extends Component {
                             </div>
                             <p>The old woman took her cub back to her home. From that day on, she shared all her food with Kunik, and a strong bond grew between the two.
                             </p>
-                            <div id="s4" className="speech2 sb1">
+                            <div id="s4" className="speech2">
                             Sharing is an important way of making friends with someone.
                             </div>
                         </div>
@@ -257,7 +257,7 @@ export class App extends Component {
                             <img className="avatar" src={avatar} alt="Owl avatar" onClick={() => {this.showNext(); this.toggle('s5')}}/>
                             <p>The village children loved Kunik, too. Now the woman was never <span className='highlight'>lonely</span>, for her son, the bear, and all the village children kept her company all day. She would stand by her igloo and smile as Kunik and the children rolled in the snow and slid on the ice. Kunik was gentle with the children as if they were his brothers and sisters.
                             </p>
-                            <div id="s5" className="speech2 sb1">
+                            <div id="s5" className="speech2">
                             Look at how happy the woman is now. When she watches the children playing with Kunik, she is no longer lonely.
                             </div>
                         </div>
@@ -271,7 +271,7 @@ export class App extends Component {
                             <img className="avatar" src={avatar} alt="Owl avatar"  onClick={() => {this.showNext(); this.toggle('s6')}}/>
                             <p>Kunk grew taller and smarter. The children taught him to fish. By springtime he was fishing on his own, and every afternoon he came home carrying fresh salmon for his mother. The old woman was now the happiest of all the villagers. She was so <span className='highlight'>proud</span> of the her little bear that whenever he returned home, she would say proudly to anyone nearby, "He's the finest fisher in all the village."
                             </p>
-                            <div id="s6" className="speech2 sb1">
+                            <div id="s6" className="speech2">
                             The woman is so proud of Kunik. It makes her happy that he has learned to be the best fisher in the village.
                             </div>
                         </div>
@@ -285,7 +285,7 @@ export class App extends Component {
                             <img className="avatar" src={avatar} alt="Owl avatar" onClick={() => {this.showNext(); this.toggle('s7')}}/>
                             <p>Before long the men began to began to feel <span className='highlight'>envious</span>. "What will we do?" they asked each other. "That bear brings home the fattest seals and the biggest salmon. "He must be stopped," another man said, "He has grown far too big. He is a danger to our families." The men decided to kill the bear. Although they knew how much the old woman loved the bear, their envy made them mean.
                             </p>
-                            <div id="s7" className="speech2 sb1">
+                            <div id="s7" className="speech2">
                             The men are envious of the Kunik's fishing skills. They are jeolous.
                             </div>
                         </div>
@@ -299,7 +299,7 @@ export class App extends Component {
                             <img className="avatar" src={avatar} alt="Owl avatar" onClick={() => {this.showNext(); this.toggle('s8')}}/>
                             <p>A little boy overheard the men talking. He ran to the old woman's home to tell her of the terrible plan. When she heard the news, she threw her arms around the bear and <span className='highlight'>wept</span>. "No," she said, "they must not kill my child." At once she set off to visit every igloo in the village. She begged each man not to kill her beautiful bear. "He is a danger to our children," they said. "We cannot let him live."
                             </p>
-                            <div id="s8" className="speech2 sb1">
+                            <div id="s8" className="speech2">
                             The old woman wept when she heard the bad news. This means she was weeping because she was afraid for her bear.
                             </div>
                         </div>
@@ -314,7 +314,7 @@ export class App extends Component {
                             <img className="avatar" src={avatar} alt="Owl avatar" onClick={() => {this.showNext(); this.toggle('s9')}}/>
                             <p>The old woman ran home and said to Kunik, "Your life is in danger. Run away, but don't go so far that I cannot find you." He had tears in his eyes but he <span className='highlight'>obeyed</span> his mother's wishes.
                             </p>
-                            <div id="s9" className="speech2 sb1">
+                            <div id="s9" className="speech2">
                             Kunik followed his mother's instructions even though it made him sad.
                             </div>
                         </div>
@@ -329,7 +329,7 @@ export class App extends Component {
                             <img className="avatar" src={avatar} alt="Owl avatar" onClick={() => {this.showNext(); this.toggle('s10')}}/>
                             <p>For many days the old woman and the children grieved their loss. And then one morning the old woman went out looking for Kunik. After many hours of walking and calling his name, she saw her bear running towards her. They embraced but Kunik could see that his mother was hungry so he ran to get her fresh meat. The old woman cut up the fresh seal. She gave her son the best slices of blubber and carried the rest home. Every day after that the old woman met her son. The bear brought his mother fresh meat or fish.
                             </p>
-                            <div id="s10" className="speech2 sb1">
+                            <div id="s10" className="speech2">
                             Kunik brought food for his mother because he loves her. 
                             </div>
                         </div>
@@ -344,7 +344,7 @@ export class App extends Component {
                             <img className="avatar" src={avatar} alt="Owl avatar" onClick={() => {this.showNext(); this.toggle('s11')}}/>
                             <p>After awhile the villagers grew to understand the love between the woman and the bear was strong and true. From that point on, they told with pride and respect the tale of the unbroken love between the old woman and her son.
                             </p>
-                            <div id="s11" className="speech2 sb1">
+                            <div id="s11" className="speech2">
                             Click "First"... "and then" to reveal the order of events. [hide the clauses and reveal them with the click]. First the woman found the bear and then she was not lonely any more.First Kunik was small and then he became taller and smarter.First the woman shared her food with Kunik and then he brought her the biggest salmon.First the men were envious and afraid of Kunik and then they were proud and respected him. 
                             </div>
                         </div>
